@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/SpaguettiConSalsaRoja.jpg);
+    backdrop-filter: brightness(0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family:'Oswald', sans-serif;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.titulo-principal{
+    font-size: 30px;
+    margin-left: 25px;
+}   
+.texto-barra{
+    display:inline-block;
+    position: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    font-size: 25px;
+}
+.iconos-nav{
+    width: 40px;
+    padding-left: 10px;
+}
+
+.boton{
+    background: black;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    border-style: dotted;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif;
+}
+
+.spaguetti-foto{
+    width: 400px;
+    margin-left: -200px;
+    border-style: solid;
+    border-color: white;
+}
+.titulo-principal-receta{
+    color: white;
+    font-size: 35px;
+    border-style: solid;
+    border-color: white;
+    padding: 117px;
+}
+.principal-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+
+.titulo-ingredientes, .titulo-preparacion{
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 5;  
+}
+
+.titulo-ingredientes{
+    margin-left: -20px;
+}
+.titulo-preparacion{
+    margin-left: 300px;
+}
+.lista-ingredientes{
+    margin-left: -30px;
+}
+.texto-preparacion{
+    margin-left: 200px;
+}
+
+.otras-entradas{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.titulo-oentrada{
+    margin-top: 100px;
+    margin-left: 150px ;
+    font-size: 30px;
+    color: white;
+    opacity: .8;
+}
+.titulo-entrada{
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    margin-left: -370px;
+}
+
+.ensadala-cesare, .brochetes, .bistec{
+    width: 250px;
+    background-color: black;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    background-position: bottom;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    
+}
+.logo-redes {
+    width: 45px;
+	height: 45px;
+    margin-left: 15px ;
+}
+
+.titulo-footer {
+    font-family:'Oswald', sans-serif; 
+    font-size: 25px;
+    color: white;
+    margin-left: 15px ;
+
+}
+
+
+ /** Animación **/
+
+ a {
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+}
+
+img, h3{
+    transition: 1s;
+}
+h3, img:hover{
+    transform: scale(1.1);  
+}
+.boton:active{
+    background-color: red;
+}
+.boton2:active{
+    color: red;
+}
+.central{
+    transition: 2s;
+}
+.central:hover{
+    transform: scale(1.1);
+}
+
+a:hover, .titulo-principal:hover{
+    opacity: 0.5;
+}
+.titulo-entrada:hover{
+    opacity: 0.5;
+}
+.titulo-oentrada{
+    animation: opacidad 6s 1 ;
+}
+@keyframes opacidad {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;;
+    }
+}
+.conteiner{
+    transition: 2s;
+}
+.conteiner:hover{
+    background-color: black;
+    transform: scale(1.1);
+}

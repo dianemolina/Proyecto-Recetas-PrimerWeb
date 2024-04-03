@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style-pagina-escribinos.css">
+    <title>Cooking.com.ar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+            <h1 class="titulo-principal">cooking.com.ar</h1>
+        </a>
+        <div class="texto-barra">
+            <ul>
+                <li class="texto-barra"></li>
+                   <img class="iconos-nav" src="./assets/LogoRecetas.png" alt=""> 
+                   <a href="/pagina-recetas.html">Recetas</a>
+                </li>
+                <li class="texto-barra"></li>
+                    <img class="iconos-nav" src="./assets/LogoEscribinos.png" alt="">
+                    <a href="/pagina-escribinos.html">Escribinos</a>
+                </li>
+                <button class="boton">INGRESAR</button>
+            </ul>
+         </div> 
+ </nav>  
+
+    <main>
+        <form class="formulario" action="formulario">
+            <h2 class="titulo">Dejanos tu contulta !</h2>
+            <div class="contenido-formulario">
+                <div class="grupo">
+                    <label for="nombre">NOMBRE</label>
+                    <input type="text"  id="nombre" class="input">
+                </div>
+                <div class="grupo">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" class="input">
+                </div>
+                <div class="grupo">    
+                    <label for="text">CONSULTA</label>
+                    <textarea name="comentario" id="consulta" class="input" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input class="boton" type="submit" id="enviar" value="Enviar">
+        </form>
+        
+
+
+    </main>
+    <footer>
+        <img class="logo-redes" src="./assets/LogoFacebook.png" alt="Logo Facebook">
+        <img class="logo-redes" src="./assets/LogoInstagram.png" alt="Logo Instagram">
+        <img class="logo-redes" src="./assets/LogoYouTube.png" alt="Logo YouTube">
+        <h3 class= "titulo-footer">cooking.com.ar</h3>
+    </footer>
+</body>
+</html>

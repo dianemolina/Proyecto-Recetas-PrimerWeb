@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/FondoRecetas.jpg);
+    backdrop-filter: brightness(0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family:'Oswald', sans-serif;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.titulo-principal{
+    font-size: 30px;
+    margin-left: 25px;
+}   
+.texto-barra{
+    display:inline-block;
+    position: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    font-size: 25px;
+}
+.iconos-nav{
+    width: 40px;
+    padding-left: 10px;
+}
+
+.boton{
+    background: black;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    border-style: dotted;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif;
+}
+
+.recetas-padre{
+    max-width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.recetas{
+    color: white;
+    width: 250px;
+    background-color: black;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+.fotos{
+    width: 100%;
+}
+.fotos{
+    height: 300px;
+    width: 300px;
+}
+
+.titulo-recetas{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+    opacity: .8;
+}
+
+
+h3{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: black;
+    background-position: bottom;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    
+}
+.logo-redes {
+    width: 45px;
+	height: 45px;
+    margin-left: 15px ;
+}
+
+.titulo-footer {
+    font-family:'Oswald', sans-serif; 
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+    margin-top: -2px
+
+}
+
+/* Animacion */
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+}
+.recetas{
+    transition: 1s;
+}
+.recetas:hover {
+    transform: scale(1.1);  
+}
+.boton:active{
+    background-color: red;
+}
+a:hover, .titulo-principal:hover{
+    opacity: 0.5;
+}
+.titulo-recetas:hover{
+    opacity: 0.5;
+}
+
+.titulo-recetas{
+    animation: opacidad 6s 1 ;
+}
+@keyframes opacidad {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;;
+    }
+}

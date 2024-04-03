@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/VerdurasFondo.jpg);
+    backdrop-filter: brightness(0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family:'Oswald', sans-serif;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+} 
+
+
+.titulo-principal{
+    font-size: 30px;
+    margin-left: 25px;
+}   
+.texto-barra{
+    display:inline-block;
+    position: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    font-size: 25px;
+}
+.iconos-nav{
+    width: 40px;
+    padding-left: 10px;
+    
+}
+.boton2, .boton{
+    background: black;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    border-style: dotted;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif;
+}
+
+main{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    background-size: auto;
+    border: 200px;
+    opacity: 0.7;
+    border-radius: 20px;
+    margin-top: 250px;
+    margin-left: 600px;
+}
+
+.texto-central{
+    margin: 60px;
+    font-size: 45px;
+}
+
+.texto-central2{
+    font-weight: 200;
+    margin-left: 250px;
+    margin-top: -20px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.formulario{
+    margin-left: 200px;
+    padding-bottom: 20PX;
+}
+.boton2{
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+.uentradas{
+    margin-top: 200px;
+    margin-left: 100px ;
+    font-size: 30px;
+    color: white;
+    opacity: .8;
+}
+
+.entradas{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.titulo-entrada{
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    margin-left: -300px;
+}
+
+.choclos,.fideos-salsa,.ensalada-cesare{
+ width: 250px;
+ background-color: black;
+ padding-right: 200px;
+ padding-top: 30px;
+ padding-left: 20px;
+ padding-bottom: 30px;
+ border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    background-position: bottom;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    
+}
+.logo-redes {
+    width: 45px;
+	height: 45px;
+    margin-left: 15px ;
+}
+
+.titulo-footer {
+    font-family:'Oswald', sans-serif; 
+    font-size: 25px;
+    color: white;
+    margin-left: 15px ;
+
+}
+
+/** Animación **/
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+}
+
+img, h3{
+    transition: 1s;
+}
+h3, img:hover{
+    transform: scale(1.1);  
+}
+.boton:active{
+    background-color: red;
+}
+.boton2:active{
+    color: red;
+}
+.central{
+    transition: 2s;
+}
+.central:hover{
+    transform: scale(1.1);
+}
+
+a:hover, .titulo-principal:hover{
+    opacity: 0.5;
+}
+.titulo-entrada:hover{
+    opacity: 0.5;
+}
+.uentradas{
+    animation: opacidad 6s 1 ;
+}
+@keyframes opacidad {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;;
+    }
+}
